@@ -48,18 +48,7 @@ Set a measurable pass condition before each test. For example, an RC low-pass fi
 
 **Figure 1: Circuit Verification and Revision Workflow**
 
-```mermaid
-flowchart TD
-    A["Define requirement: Gain between -4 and -2 dB at target frequency"]
-    B["Calculate and simulate expected gain"]
-    C["Build circuit and measure gain"]
-    D{"Is measured gain between -4 and -2 dB?"}
-    E["Investigate cause and revise circuit"]
-    F["Save measurements, schematic, and design decisions"]
-    A --> B --> C --> D
-    D -->|No| E --> B
-    D -->|Yes| F
-```
+![image alt](https://github.com/Hak2590/skills-communicate-using-markdown/blob/main/Figure%201.png)
 
 Source: Leanghak Chuon, October 25. Author’s private files.
 
