@@ -50,7 +50,7 @@ A working prototype does not necessarily meet its design requirements. A measura
 
 **Define a pass condition before testing your circuit.** For example, an RC filter targeting approximately −3 dB at its cutoff frequency might use an illustrative acceptable range of −4 to −2 dB. Record simulated and measured results, then compare them with the stated limit. When a measurement falls outside the range, check wiring, component values, and the measurement setup before revising the circuit. Figure 1 adds a sample results table and an evidence checklist for documenting the outcome.
 
-![Figure 1: Illustrative circuit verification workflow, gain comparison, and evidence package]()
+![Figure 1: Illustrative circuit verification workflow, gain comparison, and evidence package](https://github.com/Hak2590/skills-communicate-using-markdown/blob/main/Figure%20.png)
 
 *Figure 1. Circuit verification workflow and evidence. Illustrative values, not actual test measurements. © Leanghak Chuon, 2026.*
 
