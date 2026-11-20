@@ -2,7 +2,7 @@
 
 By Leanghak Chuon
 
-![Illustration showing a circuit verification decision and supporting engineering evidence](figure1-circuit-verification.svg)
+![Electrical engineering cover illustration showing the design, testing, and explanation stages](process-cover.svg)
 
 © Leanghak Chuon, original technical graphic, 2026.
 
