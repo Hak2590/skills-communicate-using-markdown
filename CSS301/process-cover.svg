@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#061927"/><stop offset="1" stop-color="#13506b"/></linearGradient></defs>
+<rect width="1440" height="520" fill="url(#bg)"/>
+<g fill="none" stroke="#39c6d2" stroke-width="3" opacity=".42">
+<path d="M0 90 H290 L345 140 H590"/><path d="M0 150 H210 L280 220 H520"/><path d="M0 405 H310 L395 315 H620"/><path d="M1440 90 H1160 L1110 140 H920"/><path d="M1440 400 H1190 L1120 330 H920"/>
+<circle cx="290" cy="90" r="7"/><circle cx="345" cy="140" r="7"/><circle cx="1110" cy="140" r="7"/><circle cx="395" cy="315" r="7"/>
+</g>
+<g transform="translate(220 96)">
+<rect x="0" y="0" width="1000" height="330" rx="26" fill="#0b263c" stroke="#6dd3e2" stroke-width="3"/>
+<text x="48" y="71" font-family="Arial,sans-serif" font-size="45" fill="white" font-weight="bold">DESIGN  →  TEST  →  EXPLAIN</text>
+<text x="50" y="117" font-family="Arial,sans-serif" font-size="22" fill="#a8dbe7">Preparing for electrical engineering practice</text>
+<g transform="translate(53 165)" stroke="#80d5e4" fill="none" stroke-width="5">
+<rect x="0" y="0" width="160" height="106" rx="12"/><path d="M20 55 H45 L57 32 L72 80 L88 36 L105 56 H141"/>
+<path d="M280 0 H410 V105 H280 Z"/><path d="M296 85 L327 45 L356 67 L399 24"/>
+<rect x="542" y="0" width="155" height="106" rx="12"/><path d="M560 24 H681 M560 49 H671 M560 75 H635"/>
+</g>
+</g>
+<text x="42" y="492" font-family="Arial,sans-serif" font-size="19" fill="#a8dbe7">Original illustration © Leanghak Chuon, 2026</text></svg>
