@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760">
+<rect width="1440" height="760" fill="#061827"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#f7fbff}.title{font-size:42px;font-weight:700}.sub{font-size:21px;fill:#b9dce7}.h{font-size:23px;font-weight:700}.body{font-size:19px}.small{font-size:17px}.table{font-size:18px}.accent{fill:#00c5d7}</style>
+<text x="46" y="64" class="title">Figure 1. Circuit Verification Workflow and Evidence</text>
+<text x="47" y="101" class="sub">Illustrative RC-filter measurements: compare predicted and measured gain, then document the outcome.</text>
+<rect x="35" y="135" width="658" height="568" rx="19" fill="#0b2a43" stroke="#59b4d7" stroke-width="2"/>
+<text x="61" y="178" class="h">Verification decisions</text>
+<rect x="65" y="207" width="290" height="86" rx="12" fill="#174b69" stroke="#7ed2f0"/>
+<text x="84" y="241" class="body">1. Simulate circuit</text><text x="84" y="267" class="small">Record expected gain</text>
+<path d="M355 250 H399" stroke="white" stroke-width="4"/><path d="M390 242 L405 250 L390 258" fill="white"/>
+<rect x="407" y="207" width="254" height="86" rx="12" fill="#174b69" stroke="#7ed2f0"/>
+<text x="426" y="241" class="body">2. Measure gain</text><text x="426" y="267" class="small">Log test conditions</text>
+<path d="M531 293 V324" stroke="white" stroke-width="4"/><path d="M523 315 L531 331 L539 315" fill="white"/>
+<rect x="280" y="334" width="384" height="93" rx="12" fill="#174b69" stroke="#7ed2f0"/>
+<text x="304" y="368" class="body">3. Compare with acceptance rule</text><text x="304" y="395" class="small">Example: measured gain −4 to −2 dB</text>
+<path d="M456 427 V462 H215 V479" fill="none" stroke="#ff8a7b" stroke-width="4"/>
+<path d="M448 427 V462 H521 V479" fill="none" stroke="#7bdc92" stroke-width="4"/>
+<text x="135" y="460" class="small" fill="#ff9d9d">Outside range</text><text x="519" y="460" class="small">Within range</text>
+<rect x="70" y="487" width="291" height="126" rx="14" fill="#7c2933" stroke="#ff7777" stroke-width="2"/>
+<text x="88" y="522" class="h">FAIL: diagnose</text><text x="88" y="552" class="small">Check wiring and component values</text><text x="88" y="579" class="small">Correct cause and repeat test</text>
+<rect x="391" y="487" width="274" height="126" rx="14" fill="#135b47" stroke="#74dfa8" stroke-width="2"/>
+<text x="411" y="522" class="h">PASS: archive</text><text x="411" y="552" class="small">Save results and conditions</text><text x="411" y="579" class="small">Keep evidence for review</text>
+<path d="M214 613 V649 H210 V670 H74" stroke="#ff8a7b" stroke-width="3" fill="none"/>
+<text x="91" y="681" class="small">Retest after a change</text>
+<rect x="718" y="135" width="687" height="304" rx="18" fill="#0b2a43" stroke="#59b4d7" stroke-width="2"/>
+<rect x="735" y="151" width="653" height="59" rx="11" fill="#db7009"/>
+<text x="758" y="189" class="h">Example: simulated vs. measured gain</text>
+<path d="M736 255 H1385 M736 319 H1385 M736 383 H1385 M885 220 V416 M1065 220 V416 M1238 220 V416" stroke="#6da9bd" stroke-width="2"/>
+<text x="751" y="239" class="small">Frequency</text><text x="904" y="239" class="small">Simulated</text><text x="1085" y="239" class="small">Measured</text><text x="1253" y="239" class="small">Delta</text>
+<text x="751" y="289" class="table">1 kHz</text><text x="904" y="289" class="table">−2.96 dB</text><text x="1085" y="289" class="table">−3.10 dB</text><text x="1252" y="289" class="table">0.14 dB</text>
+<text x="751" y="353" class="table">10 kHz</text><text x="904" y="353" class="table">−3.00 dB</text><text x="1085" y="353" class="table">−3.08 dB</text><text x="1252" y="353" class="table">0.08 dB</text>
+<text x="751" y="416" class="table">100 kHz</text><text x="904" y="416" class="table">−3.03 dB</text><text x="1085" y="416" class="table">−3.25 dB</text><text x="1252" y="416" class="table">0.22 dB</text>
+<rect x="718" y="461" width="687" height="242" rx="18" fill="#0b2a43" stroke="#59b4d7" stroke-width="2"/>
+<rect x="735" y="477" width="653" height="58" rx="11" fill="#db7009"/>
+<text x="757" y="514" class="h">Evidence package for engineering review</text>
+<rect x="740" y="552" width="307" height="61" rx="8" fill="#15435e"/><text x="756" y="590" class="body">✓ Final schematic</text>
+<rect x="1061" y="552" width="327" height="61" rx="8" fill="#15435e"/><text x="1077" y="590" class="body">✓ Results and plots</text>
+<rect x="740" y="628" width="307" height="60" rx="8" fill="#15435e"/><text x="756" y="666" class="body">✓ Breadboard photo</text>
+<rect x="1061" y="628" width="327" height="60" rx="8" fill="#15435e"/><text x="1077" y="666" class="body">✓ Test notes and settings</text>
+<text x="43" y="737" class="small">Illustrative values, not measurements from a completed experiment. Graphic by Leanghak Chuon, revised for CSS 301.</text>
+</svg>
